@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"extensions":
+	[
+		"markdown",
+		"mdown"
+	],
+	"font_size": 20,
+	"line_numbers": true,
+	"spell_check": true,
+	"word_wrap": true,
+	"wrap_width": 60
+}

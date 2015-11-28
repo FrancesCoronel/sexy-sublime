@@ -1,0 +1,3 @@
+{
+    "shell_cmd": "open -a 'marked 2' \"$file\""
+}
