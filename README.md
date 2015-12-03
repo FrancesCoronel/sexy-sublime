@@ -1,8 +1,16 @@
-# Sublime
+# Sexy Sublime
 
 > This folder contains all my Sublime Text 3 preferences and packages for easy syncing.
 
-1. Make sure to install Package Control first!
+---
+
+<img src="http://i.imgur.com/0EjQtmk.png?1">
+
+---
+
+## Steps
+
+1. Make sure to install <a href="https://packagecontrol.io/" target="_blank">Package Control</a> first!
 
 ```
 import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
@@ -15,11 +23,15 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 On your first machine, use the following instructions.
 
-```shell
+```bash
+# change into Sublime Text 3 packages directory
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-mkdir ~/Dropbox/Sublime
-mv User ~/Dropbox/Sublime/
-ln -s ~/Dropbox/Sublime/User
+# create Sublime folder in Dropbox/Google Drive/etc. directory
+mkdir /Users/fvcproductions/Google\ Drive/GitHub/Sublime
+# mv User folder from Sublime Text Packages to this newly created folder
+mv User /Users/fvcproductions/Google\ Drive/GitHub/Sublime
+# create an alias between the two folders
+ln -s /Users/fvcproductions/Google\ Drive/GitHub/Sublime/User
 ```
 
 ## Other Machine(s)
@@ -28,8 +40,11 @@ On your other machine(s), use the following instructions.
 
 These instructions will remove your `User` folder and all contents!
 
-```shell
+```bash
+# change into Sublime Text 3 packages directory
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+# remove User folder
 rm -r User
-ln -s ~/Dropbox/Sublime/User
+# create alias with existing User folder
+ln -s /Users/fvcproductions/Google\ Drive/GitHub/Sublime/User
 ```

@@ -1,14 +1,16 @@
 {
-	"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"extensions":
 	[
 		"markdown",
-		"mdown"
+		"mdown",
+		"md"
 	],
 	"font_size": 20,
 	"line_numbers": true,
 	"spell_check": true,
 	"word_wrap": true,
-	"wrap_width": 60
+	"wrap_width": 80,
+	"draw_centered": false,
 }
