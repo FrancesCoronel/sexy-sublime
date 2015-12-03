@@ -10,35 +10,65 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_008000FF</string>
+<string>mcol_FFFF00FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#008000FF</string>
-<key>caret</key>
-<string>#7FFF7FFF</string>
+<string>#FFFF00FF</string>
 <key>foreground</key>
-<string>#7FFF7FFF</string>
+<string>#4C4C00FF</string>
+<key>caret</key>
+<string>#4C4C00FF</string>
 </dict>
 </dict>
 
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_FFFF00FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#272823FF</string>
+<key>foreground</key>
+<string>#FFFF00FF</string>
+<key>caret</key>
+<string>#4C4C00FF</string>
+</dict>
+</dict>
 
 <dict>
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_FF00FFFF</string>
+<string>mcol_115588FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#FF00FFFF</string>
-<key>caret</key>
-<string>#4C004CFF</string>
+<string>#115588FF</string>
 <key>foreground</key>
-<string>#4C004CFF</string>
+<string>#76BAEEFF</string>
+<key>caret</key>
+<string>#76BAEEFF</string>
 </dict>
 </dict>
 
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_115588FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#272823FF</string>
+<key>foreground</key>
+<string>#115588FF</string>
+<key>caret</key>
+<string>#76BAEEFF</string>
+</dict>
+</dict>
 
 		<dict>
 			<key>settings</key>
@@ -432,7 +462,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DDB700</string>
+                <string>#EDBA00</string>
             </dict>
         </dict><dict>
             <key>name</key>
@@ -452,7 +482,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D02000</string>
+                <string>#DA2000</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
