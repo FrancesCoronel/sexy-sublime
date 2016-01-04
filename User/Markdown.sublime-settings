@@ -12,4 +12,7 @@
 	"word_wrap": true,
 	"wrap_width": 80,
 	"draw_centered": false,
+	"trailing_spaces_trim_on_save": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true
 }

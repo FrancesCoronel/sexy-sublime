@@ -80,7 +80,7 @@
 		"no_bold",
 		"subpixel_antialias"
 	],
-	"font_size": 9,
+	"font_size": 14,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
@@ -119,7 +119,7 @@
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": false,
+	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_wrap": true
