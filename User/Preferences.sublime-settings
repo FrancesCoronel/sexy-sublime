@@ -6,7 +6,16 @@
 		"Codewars",
 		"Iconfinder",
 		"Disruptors",
-		"App"
+		"App",
+		"app",
+		"hackathon",
+		"hackathon's",
+		"Screenshots",
+		"texting",
+		"pre",
+		"templating",
+		"family’s",
+		"dev"
 	],
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
@@ -81,7 +90,7 @@
 		"no_bold",
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 16,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
