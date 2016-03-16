@@ -10,6 +10,7 @@
 		"All Autocomplete",
 		"AngularJS",
 		"ApplySyntax",
+		"Auto Semi-Colon",
 		"AutoFileName",
 		"BracketHighlighter",
 		"Browser Refresh",
@@ -30,7 +31,6 @@
 		"Jade Snippets",
 		"Javascript Beautify",
 		"JavaScriptNext - ES6 Syntax",
-		"Javatar",
 		"Jekyll",
 		"JsFormat",
 		"JSHint",
@@ -58,8 +58,6 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"Terminal",
-		"Theme - Soda",
-		"Theme - Spacegray",
 		"TrailingSpaces"
 	]
 }

@@ -17,6 +17,7 @@
 		"family’s",
 		"dev"
 	],
+	"always_show_minimap_viewport": true,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 50,
@@ -90,7 +91,7 @@
 		"no_bold",
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 14,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
@@ -104,7 +105,8 @@
 	],
 	"indent_guide_options":
 	[
-		"draw_normal"
+		"draw_normal",
+		"draw_active"
 	],
 	"indent_subsequent_lines": true,
 	"line_numbers": true,
@@ -115,6 +117,9 @@
 	"match_brackets_content": true,
 	"match_brackets_square": true,
 	"match_tags": true,
+	"material_theme_appbar_yellow": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tree_headings": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
@@ -124,7 +129,7 @@
 	"spacegray_tabs_auto_width": true,
 	"spacegray_tabs_font_large": true,
 	"spacegray_tabs_xlarge": true,
-	"spell_check": false,
+	"spell_check": true,
 	"tab_completion": true,
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
