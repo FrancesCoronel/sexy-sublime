@@ -27,11 +27,11 @@ On your first machine, use the following instructions.
 # change into Sublime Text 3 packages directory
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 # create Sublime folder in Dropbox/Google Drive/etc. directory
-mkdir /Users/fvcproductions/Google\ Drive/GitHub/Sublime
+mkdir /Users/fvcproductions/Dropbox/GitHub/sexy-sublime
 # mv User folder from Sublime Text Packages to this newly created folder
-mv User /Users/fvcproductions/Google\ Drive/GitHub/Sublime
+mv User /Users/fvcproductions/Dropbox/GitHub/sexy-sublime
 # create an alias between the two folders
-ln -s /Users/fvcproductions/Google\ Drive/GitHub/Sublime/User
+ln -s Users/fvcproductions/Dropbox/GitHub/sexy-sublime/User
 ```
 
 ## Other Machine(s)
@@ -46,5 +46,9 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 # remove User folder
 rm -r User
 # create alias with existing User folder
-ln -s /Users/fvcproductions/Google\ Drive/GitHub/Sublime/User
+ln -s /Users/fvcproductions/Dropbox/GitHub/sexy-sublime/User
+
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+rm -r User
+ln -s /Users/fvcproductions/Dropbox/GitHub/sexy-sublime/User
 ```
