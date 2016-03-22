@@ -9,9 +9,9 @@
 	],
 	"line_numbers": true,
 	"spell_check": true,
-	"word_wrap": true,
 	"draw_centered": false,
 	"trailing_spaces_trim_on_save": true,
 	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "auto"
 }

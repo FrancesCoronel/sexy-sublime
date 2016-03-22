@@ -52,6 +52,7 @@
 	"auto_complete_with_fields": false,
 	"auto_indent": true,
 	"auto_match_enabled": true,
+	"auto_width": true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
@@ -156,5 +157,9 @@
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
-	"word_wrap": true
+	"word_wrap":
+	[
+		"auto",
+		true
+	]
 }
