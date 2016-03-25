@@ -1,0 +1,8 @@
+{
+  "auto_wrap" : true,
+  "word_wrap":
+  [
+    "auto",
+    true
+  ]
+}

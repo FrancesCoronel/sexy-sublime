@@ -53,6 +53,7 @@
 	"auto_indent": true,
 	"auto_match_enabled": true,
 	"auto_width": true,
+	"auto_wrap" : true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
