@@ -3,5 +3,6 @@
 	[
 		"json",
 		"sublime-settings"
-	]
+	],
+  "word_wrap": "auto"
 }
