@@ -1,5 +1,6 @@
 {
 	"extensions":
 	[
-	]
+	],
+  "word_wrap": "auto"
 }
