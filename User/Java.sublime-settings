@@ -1,8 +1,4 @@
 {
-  "auto_wrap" : true,
-  "word_wrap":
-  [
-    "auto",
-    true
-  ]
+  "word_wrap" : true,
+  "wrap_width": 0
 }
