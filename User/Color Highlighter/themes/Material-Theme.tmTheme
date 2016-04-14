@@ -17,15 +17,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_CD853FFF</string>
+<string>mcol_D2691EFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#CD853FFF</string>
+<string>#D2691EFF</string>
 <key>foreground</key>
-<string>#3C250FFF</string>
+<string>#422109FF</string>
 <key>caret</key>
-<string>#3C250FFF</string>
+<string>#422109FF</string>
 </dict>
 </dict>
 
@@ -33,15 +33,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_CD853FFF</string>
+<string>mcol_text_D2691EFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#263239FF</string>
 <key>foreground</key>
-<string>#CD853FFF</string>
+<string>#D2691EFF</string>
 <key>caret</key>
-<string>#3C250FFF</string>
+<string>#422109FF</string>
 </dict>
 </dict>
 
@@ -867,7 +867,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>CSS: #</string>
       <key>scope</key>
-      <string>constant.other.color.rgb-value punctuation.definition.constant</string>
+      <string>constant.other.color.rgb-value punctuation.definition.constant, source.sass entity.other.attribute-name.id.sass, source.css meta.selector.css entity.other.attribute-name.id.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
