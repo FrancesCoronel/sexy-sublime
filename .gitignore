@@ -4,3 +4,4 @@ User/codeivate-st.sublime-settings
 Package Control.last-run
 User/.DS_Store
 .DS_Store
+*.cache
