@@ -17,15 +17,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_D2691EFF</string>
+<string>mcol_A52A2AFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#D2691EFF</string>
+<string>#A52A2AFF</string>
 <key>foreground</key>
-<string>#422109FF</string>
+<string>#D55959FF</string>
 <key>caret</key>
-<string>#422109FF</string>
+<string>#D55959FF</string>
 </dict>
 </dict>
 
@@ -33,15 +33,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_D2691EFF</string>
+<string>mcol_text_A52A2AFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#263239FF</string>
 <key>foreground</key>
-<string>#D2691EFF</string>
+<string>#A52A2AFF</string>
 <key>caret</key>
-<string>#422109FF</string>
+<string>#D55959FF</string>
 </dict>
 </dict>
 
@@ -82,11 +82,11 @@
       <key>name</key>
       <string>Text</string>
       <key>scope</key>
-      <string>variable.parameter.function</string>
+      <string>variable.parameter.function, text.cmdline, keyword.cmdline</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#eeffffff</string>
+        <string>#eeffff</string>
       </dict>
     </dict>
     <dict>
@@ -98,19 +98,21 @@
       <dict>
         <key>foreground</key>
         <string>#546E7A</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>notes</string>
+      <key>scope</key>
+      <string>notes</string>
+      <key>settings</key>
       <dict>
-        <key>name</key>
-        <string>notes</string>
-        <key>scope</key>
-        <string>notes</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#8EACE3</string>
-        </dict>
+        <key>foreground</key>
+        <string>#8EACE3</string>
       </dict>
+    </dict>
     <dict>
       <key>name</key>
       <string>Text and Source Base Colors</string>
@@ -152,7 +154,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c792eaff</string>
+        <string>#c792ea</string>
       </dict>
     </dict>
     <dict>
@@ -163,7 +165,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c792eaff</string>
+        <string>#c792ea</string>
       </dict>
     </dict>
     <dict>
@@ -237,7 +239,7 @@
       <string>Support</string>
       <key>scope</key>
       <string>support.function,
-keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.function-call meta.function-call.arguments variable.parameter.function, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown, source.js, source.gulpfile.js variable.other.object.js, source.js</string>
+keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.function-call meta.function-call.arguments variable.parameter.function, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown, source.js, source.gulpfile.js variable.other.object.js, source.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -330,6 +332,8 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <dict>
         <key>foreground</key>
         <string>#FFCB6B</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
     <dict>
